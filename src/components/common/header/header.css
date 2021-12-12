@@ -31,3 +31,37 @@
     font-weight: 500;
     margin-left: 16px;
 }
+.header-search {
+    display: flex;
+    flex: 6;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #e1e1e1;
+    padding: 8px;
+    border-radius: 6px;
+    color: #464775;
+}
+
+.header-search input {
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    background-color: inherit;
+    margin-left: 6px;
+    color: #464775;
+    outline: none;
+}
+.header-profile {
+    display: flex;
+    justify-content: flex-end;
+    flex: 4;
+    align-items: center;
+    padding-right: 16px;
+}
+.header-avatar {
+    width: 32px;
+}
+.header-options {
+    font-size: 28px;
+    margin-right: 16px;
+}

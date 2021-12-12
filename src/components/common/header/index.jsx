@@ -1,23 +1,29 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './header.css';
 
 const Header = () => {
+    const [value, setValue]=useState('')
+
     return (
         <div className="header">
             <div className="header-menu">
-                <i className="fi fi-rr-Layout-fluid"></i>
+                <i className="fi-rr-layout-fluid"></i>
             </div>
             <div className="header-leftFold">
                 <label className="header-label">Microsoft Teams</label>
             </div>
             <div className="header-rightFold">
                 <div className="header-search">
-                    <i className="fi fi-rr-Search"></i>
+                    <i className="fi-rr-search"></i>
+                    <input placeholder="Search Microsoft Teams" value={value} onChange={(event)=>setValue(event.target.value)}/>
                 </div>
-                <div>
-                    <input type="text" className="input-search"/>
+                <div className="header-profile">
+                   <div className="header-options">
+                       <i className="fi-rr-menu-dots"></i>
+                   </div>
+                    <img
+                        src="https://cdn-icons.flaticon.com/png/512/2202/premium/2202112.png?token=exp=1639298835~hmac=2c75cf9471ed3eed90547429c5a9568f" alt="avatar-image" className="header-avatar"/>
                 </div>
-
             </div>
         </div>
     );
