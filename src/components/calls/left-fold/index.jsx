@@ -28,7 +28,7 @@ const LeftFold = () => {
                     <label className="suggested-label">Suggested</label>
                     <div className="suggested-list">
                         {dialerList.map(item=>{
-                            return <DialerItem item={item}/>
+                            return <DialerItem item={item} key={item.id}/>
                         })}
                     </div>
                 </div>
