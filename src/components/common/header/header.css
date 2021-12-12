@@ -6,3 +6,28 @@
     flex: 1;
     padding: 6px 0;
 }
+.header-menu {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.header-leftFold {
+    display: flex;
+    flex: 3;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header-rightFold {
+    display: flex;
+    flex: 11;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-label {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 16px;
+}

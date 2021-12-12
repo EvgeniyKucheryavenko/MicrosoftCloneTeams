@@ -5,13 +5,19 @@ const Header = () => {
     return (
         <div className="header">
             <div className="header-menu">
-                This menu
+                <i className="fi fi-rr-Layout-fluid"></i>
             </div>
             <div className="header-leftFold">
-                header-leftFold
+                <label className="header-label">Microsoft Teams</label>
             </div>
             <div className="header-rightFold">
-                header-rightFold
+                <div className="header-search">
+                    <i className="fi fi-rr-Search"></i>
+                </div>
+                <div>
+                    <input type="text" className="input-search"/>
+                </div>
+
             </div>
         </div>
     );
