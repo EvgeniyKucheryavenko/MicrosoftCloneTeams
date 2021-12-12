@@ -41,3 +41,50 @@ export const DialerList = [
         type: "Сотрудник",
         avatar: "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
     }]
+
+
+export const CallsContact = [
+    {
+        id: 1,
+        name: "Николай Черданцев",
+        type: "Сотрудник",
+        avatar: "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    },
+    {
+        id: 2,
+        name: "Николай Черданцев",
+        type: "Сотрудник",
+        avatar: "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    },
+    {
+        id: 3,
+        name: "Николай Черданцев",
+        type: "Сотрудник",
+        avatar: "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    },
+    {
+        id: 4,
+        name: "Николай Черданцев",
+        type: "Сотрудник",
+        avatar: "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    },
+    {
+        id: 5,
+        name: "Николай Черданцев",
+        type: "Сотрудник",
+        avatar: "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    },
+    {
+        id:6,
+        name: "Николай Черданцев",
+        type: "Сотрудник",
+        avatar: "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    },
+    {
+        id: 7,
+        name: "Николай Черданцев",
+        type: "Сотрудник",
+        avatar: "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    },
+
+]

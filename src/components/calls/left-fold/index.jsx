@@ -12,7 +12,7 @@ const LeftFold = () => {
     return (
         <div className="leftFold">
             <div className="leftFold-menu">
-                <label className="">Calls</label>
+                <label className="menu-label">Calls</label>
                 <div className="menu-items">
                     {menu.map(item=>{
                         return <MenuItem item={item} isActive/>
@@ -32,6 +32,14 @@ const LeftFold = () => {
                         })}
                     </div>
                 </div>
+                <div className="dialer-bottom">
+                    <div className="dialer-bottom-icon">
+                        <i className="fas fa-microphone-alt"></i>
+                    </div>
+                    <div className="dialer-bottom-icon">
+                        <i className="fas fa-camera"></i>
+                    </div>
+            </div>
             </div>
         </div>
     );
